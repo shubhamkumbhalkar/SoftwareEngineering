@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd"> 
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/WEB-INF/jsp/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
+        <put-attribute name="menu" value="" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
+    </definition>  
+  
+    <definition name="login" extends="base.definition">  
+        <put-attribute name="title" value="Login" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_login.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />  
+    </definition>  
+  
+    <definition name="home_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/home_admin.jsp" />  
+    </definition>  
+    
+    <definition name="home_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/home_student.jsp" />  
+    </definition> 
+    
+    <definition name="course_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/course_admin.jsp" />  
+    </definition>  
+    
+    <definition name="course_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/course_student.jsp" />  
+    </definition> 
+    
+    <definition name="library_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/library_admin.jsp" />  
+    </definition>  
+    
+    <definition name="library_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/library_student.jsp" />  
+    </definition>
+    
+    <definition name="news_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/news_admin.jsp" />  
+    </definition>  
+    
+    <definition name="news_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/news_student.jsp" />  
+    </definition>
+    
+    <definition name="academic_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/academic_admin.jsp" />  
+    </definition>  
+    
+    <definition name="academic_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/academic_student.jsp" />  
+    </definition>
+    
+    <definition name="emergency_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/emergency_admin.jsp" />  
+    </definition>  
+    
+    <definition name="emergency_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/emergency_student.jsp" />  
+    </definition>
+    
+    <definition name="oncampus_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/oncampus_admin.jsp" />  
+    </definition>  
+    
+    <definition name="oncampus_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/oncampus_student.jsp" />  
+    </definition>
+    
+    <definition name="discussion_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/discussion_admin.jsp" />  
+    </definition>  
+    
+    <definition name="discussion_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/discussion_student.jsp" />  
+    </definition>
+    
+    <definition name="dining_admin" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_admin.jsp" /> 
+        <put-attribute name="body" value="/WEB-INF/jsp/dining_admin.jsp" />  
+    </definition>  
+    
+    <definition name="dining_student" extends="base.definition">  
+        <put-attribute name="title" value="Home" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu_student.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/dining_student.jsp" />  
+    </definition>
+  
+</tiles-definitions>
